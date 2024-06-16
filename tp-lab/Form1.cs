@@ -161,6 +161,8 @@ namespace tp_lab
 
         private void buttonVer_Click(object sender, EventArgs e)
         {
+            dataGridViewData.Rows.Clear();
+            
             imprimirGrilla(campo, "campo", false);
             imprimirGrilla(plateaAlta, "platea alta", false);
             imprimirGrilla(plateaBaja, "platea baja", false);
