@@ -17,9 +17,9 @@ namespace tp_lab
 
         string[,] sectorSeleccionado;
 
-        string[,] campo = new string[1, 1];
-        string[,] plateaAlta = new string[2, 2];
-        string[,] plateaBaja = new string[2, 2];
+        string[,] campo = new string[100, 100];
+        string[,] plateaAlta = new string[50, 50];
+        string[,] plateaBaja = new string[50, 50];
 
         public Form1()
         {
